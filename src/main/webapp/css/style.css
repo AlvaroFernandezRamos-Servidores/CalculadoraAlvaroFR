@@ -1,0 +1,369 @@
+@font-face {
+  font-family: 'calc';
+  src: url('fonts/digital-7.ttf')  format('truetype');
+}
+
+body{
+    font-family:'calc';
+    font-weight: 400;
+    background-color:gray;
+    overflow: hidden;
+    text-align: center;
+}
+
+body a {
+    color:white;
+    line-height:1.5em;
+}
+
+h1{
+    text-align:center;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.calc-input .botonera{
+    text-align:center;
+}
+
+.calc-input .botonera > *{
+    display: inline-block;
+    vertical-align: middle;
+    text-align:left;
+    margin: 0 1vw;
+}
+
+.botonera div input[type="radio"]{
+    display:none;
+}
+
+.botonera div label,
+input[name="send"]{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-color:darkgray;
+    border-radius:5px;
+    margin:5px;
+}
+
+input[name="send"]{
+    width: calc(100% - 10px);
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.botonera > div{
+    font-size: 0;
+}
+
+.botonera div label:before{
+    color:white;
+    font-size: 16px;
+    font-family:Helvetica;
+    transform: scale(3) translateX(5px) translateY(4px);
+    display:inline-block;
+    pointer-events:none;
+}
+.botonera div input:checked+label{
+    background-color:greenyellow;
+}
+
+.botonera div label[for="suma"]:before{
+    content:'+';
+}
+
+.botonera div label[for="prod"]:before{
+    content:'x';
+    transform: scale(3) translateX(5px) translateY(3px);
+}
+.botonera div label[for="resta"]:before{
+    content:'-';
+    transform: scale(3) translateX(5.5px) translateY(3.4px) scaleX(2);
+}
+
+.botonera div label[for="div"]:before{
+    content:'\00f7';
+}
+
+.calc-input input[type="number"]{
+    border: 0;
+    width: 30vw;
+    height: 70vh;
+    font-family: 'calc';
+    font-size: 15vw;
+    line-height: 100vh;
+    padding: 0 3vw 3.5vw;
+    color:darkgray;
+    outline:0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: lightgrey;
+    caret-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+    display:none;
+    background-color:transparent;
+    color:transparent;
+}@font-face {
+  font-family: 'calc';
+  src: url('fonts/digital-7.ttf')  format('truetype');
+}
+
+body{
+    font-family:'calc';
+    font-weight: 400;
+    background-color:gray;
+    overflow: hidden;
+}
+
+h1{
+    text-align:center;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.calc-input .botonera{
+    text-align:center;
+}
+
+.calc-input .botonera > *{
+    display: inline-block;
+    vertical-align: middle;
+    text-align:left;
+    margin: 0 1vw;
+}
+
+.botonera div input[type="radio"]{
+    display:none;
+}
+
+.botonera div label,
+input[name="send"]{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-color:darkgray;
+    border-radius:5px;
+    margin:5px;
+}
+
+input[name="send"]{
+    width: calc(100% - 10px);
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.botonera > div{
+    font-size: 0;
+}
+
+.botonera div label:before{
+    color:white;
+    font-size: 16px;
+    font-family:Helvetica;
+    transform: scale(3) translateX(5px) translateY(4px);
+    display:inline-block;
+    pointer-events:none;
+}
+.botonera div input:checked+label{
+    background-color:greenyellow;
+}
+
+.botonera div label[for="suma"]:before{
+    content:'+';
+}
+
+.botonera div label[for="prod"]:before{
+    content:'x';
+    transform: scale(3) translateX(5px) translateY(3px);
+}
+.botonera div label[for="resta"]:before{
+    content:'-';
+    transform: scale(3) translateX(5.5px) translateY(3.4px) scaleX(2);
+}
+
+.botonera div label[for="div"]:before{
+    content:'\00f7';
+}
+
+.calc-input input[type="number"]{
+    border: 0;
+    width: 30vw;
+    height: 70vh;
+    font-family: 'calc';
+    font-size: 15vw;
+    line-height: 100vh;
+    padding: 0 3vw 3.5vw;
+    color:darkgray;
+    outline:0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: lightgrey;
+    caret-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+    display:none;
+    background-color:transparent;
+    color:transparent;
+}@font-face {
+  font-family: 'calc';
+  src: url('fonts/digital-7.ttf')  format('truetype');
+}
+
+body{
+    font-family:'calc';
+    font-weight: 400;
+    background-color:gray;
+    overflow: hidden;
+}
+
+h1{
+    text-align:center;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.calc-input .botonera{
+    text-align:center;
+}
+
+.calc-input .botonera > *{
+    display: inline-block;
+    vertical-align: middle;
+    text-align:left;
+    margin: 0 1vw;
+}
+
+.botonera div input[type="radio"]{
+    display:none;
+}
+
+.botonera div label,
+input[name="send"]{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-color:darkgray;
+    border-radius:5px;
+    margin:5px;
+    cursor:pointer;
+}
+
+input[name="send"]{
+    width: calc(100% - 10px);
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.botonera > div{
+    font-size: 0;
+}
+
+.botonera div label:before{
+    color:white;
+    font-size: 16px;
+    font-family:Helvetica;
+    transform: scale(3) translateX(5px) translateY(4px);
+    display:inline-block;
+    pointer-events:none;
+    cursor:pointer;
+}
+.botonera div input:checked+label{
+    background-color:greenyellow;
+}
+
+.botonera div label[for="suma"]:before{
+    content:'+';
+}
+
+.botonera div label[for="prod"]:before{
+    content:'x';
+    transform: scale(3) translateX(5px) translateY(3px);
+}
+.botonera div label[for="resta"]:before{
+    content:'-';
+    transform: scale(3) translateX(5.5px) translateY(3.4px) scaleX(2);
+}
+
+.botonera div label[for="div"]:before{
+    content:'\00f7';
+}
+
+.calc-input input[type="number"]{
+    border: 0;
+    width: 30vw;
+    height: 70vh;
+    font-family: 'calc';
+    font-size: 10vw;
+    line-height: 100vh;
+    padding: 0 3vw 3.5vw;
+    color:darkgray;
+    outline:0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: lightgrey;
+    caret-color: transparent;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+    display:none;
+    background-color:transparent;
+    color:transparent;
+}
+
+main {
+    text-align: center;
+}
+
+section.result:empty{
+   display:none !important;
+}
+
+section.result {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+    position: fixed;
+    margin-left: -15vw;
+    bottom: 1vh;
+    border-radius: 15px;
+    background-color: lightgrey;
+    border:10px solid gray;
+    font-size: 8vw;
+    color: darkgray;
+    line-height: 100%;
+}
